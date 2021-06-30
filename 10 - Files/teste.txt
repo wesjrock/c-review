@@ -1,0 +1,15 @@
+.
+..
+.DS_Store
+1001
+1001.c
+1002
+1002.c
+grades.txt
+my_copy2
+my_type
+my_type.c
+my_type.txt
+mycopy
+mycopy.c
+teste.txt
