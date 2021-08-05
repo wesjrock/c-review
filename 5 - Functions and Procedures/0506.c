@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// Print characters given a number of lines
+// Imprime caracteres dado um numero de linhas
 void linha(int num, char ch);
 
 

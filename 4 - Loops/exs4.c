@@ -11,19 +11,19 @@ int main(){
 	}
 	*/
 
-	// Enter a number and print in ascending and descending order
+	// Digite um numero e imprima a ordem crescente e decrescente
 	/*
 	int i, j, n;
 
 	scanf("%d", &n);
 
-	// this 'for' is executed n times
+	// este for eh executado n vezes
 	for(i = 1, j = n; i <= n; i++, j--){
 		printf("%d %d\n", i, j);
 	}
 	*/
 
-	// The same program as above with only two variables
+	// O mesmo programa de cima com apenas duas variaveis
 	/*
 	int i, n;
 	scanf("%d", &n);
@@ -34,7 +34,7 @@ int main(){
 	*/
 
 	/*
-	// prog0417: type a number and a character, and print this character according to the number
+	// prog0417: digite um numero e um caractere, e imprima este caractere de acordo com o numero
 	// exemplo: 3 *
 	// saida: ***
 	//		  ***
@@ -44,8 +44,8 @@ int main(){
 	char a;
 
 	scanf("%d %c", &n, &a);
-	// in this case in 3 lines that are the external iterations
-	// we will have the character printed in 3 columns which are the internal iterations
+	// neste caso em 3 linhas que sao as iteracoes externas
+	// teremos o caractere impresso em 3 colunas que sao as iteracoes internas
 	for(i = 1; i <= n ; i++){
 		for(j = 1; j <= n; j++){
 			putchar(a);
@@ -54,9 +54,9 @@ int main(){
 	}
 	*/
 
-	// prog0418: my solution
-	// enter a number and print all values from it except multiples of 3
-	// If the value is multiple of 10 stop the program
+	// prog0418: minha solucao
+	// digite um numero e imprima todos os valores a partir dele exceto multiplos de 3
+	// Se o valor for multiplo de 10 pare o programa
 	/*
 	int i, n, soma = 0;
 
@@ -65,11 +65,11 @@ int main(){
 	for(i = 0; i >= 0; i++){
 		soma = n + i;
 
-		// skip multiples of 3
+		// pula os multiplos de 3
 		if(soma%3 == 0){
 			continue;
 		}
-		// stop the program if it is multiple of 10
+		// para o programa se for multiplo de 10
 		else if(soma%10 == 0){
 			break;
 		}
@@ -77,7 +77,7 @@ int main(){
 	}
 	*/
 
-	// prog0418: book solution
+	// prog0418: solucao do autor
 	/*
 	int i, n;
 
@@ -95,18 +95,18 @@ int main(){
 	}
 	*/
 
-	// Proposed Exercises pg101
-	// 2. Write the do...while loop as a while loop
+	// EXS PROPOSTOS pg101
+	// 2. Escreve o laco do...while como um laco while
 
 	/*
-	// Example: do...while
+	// exemplo: do...while
 	do{
 		instrucao;
 	}
 	while(condicao);
 	*/
 
-	// Example: while
+	// exemplo: while
 	/*
 	cont = 0;
 	while(condicao){
@@ -115,17 +115,17 @@ int main(){
 	}
 	*/
 
-	// Solution ex2
+	// solucao ex2
 	/*
 	int cont = 0;
-	while(cont >= 0){ // As long as the condition is true, proceed with the cycle
+	while(cont >= 0){ // Enquanto a condicao eh verdadeira, prossiga com o ciclo
 		cont++;
 		printf("ITERACAO %d\n", cont);
 		getchar();
 	}
 	*/
 
-	// 3. Write the for loop as a while loop
+	// 3. Escreva o laco for como laco while
 	// exemplo: for
 	/*
 	for(carga inicial; condicao; pos-intrucao){
@@ -133,17 +133,17 @@ int main(){
 	}
 	*/
 
-	// Solution ex3
+	// solucao ex3
 	/*
 	int i = 0;
 	while(i >= 0){
 		printf("ITERACAO: %d\n", i);
-		i++; // this is a post-instruction
+		i++; // isso eh uma pos-instrucao
 		if(i == 10) break;
 	}
 	*/
 
-	// 4. Write the while as a for loop
+	// 4. Escreve o while como um laco for
 	/*
 	int i;
 	for(i = 0; i >= 0; i++){
@@ -154,11 +154,11 @@ int main(){
 
 
 
-	// ex7: write the program as a while loop
+	// ex7: escreva o programa como um laco while
 	/*
 	int i = 1;
 	while(i <= 20){
-		// if there was no i++ before the instructions, we would be in an infinite loop
+		// se nao houvesse i++ anteriormente as instrucoes, ficariamos em loop infinito
 		i++;		
 		if(i == 10)
 			continue;
@@ -168,7 +168,7 @@ int main(){
 	*/
 
 	// ex8
-	// book answer however with counters starting at 0
+	// resposta do livro porem com contadores comecando em 0
 	/*
 	int i, j, n;
 	char c = '*';
@@ -184,13 +184,13 @@ int main(){
 	}
 	*/
 
-	// ex9: same as exercise above but with ascii
+	// ex9: igual ao ex de cima porem com ascii
 	/*
 	int i, j, n;
 	scanf("%d", &n);
 
-	// attention here, before I did a test with the counters starting at 0, but there was a problem
-	// the problem was in the arithmetic of char with integer, because it wasn't adding correctly
+	// atencao aqui, antes fiz um teste com os contadores iniciando em 0, porem deu problema
+	// o problema foi na aritmetica de char com inteiro, pois nao estava somando corretamente
 	for(i = 1; i <= n; i++){
 		for(j = 1; j <= i ; j++){
 			putchar('A' + i - 1);
@@ -199,9 +199,9 @@ int main(){
 	}
 	*/
 
-	// ex10: in this exercise, the words 'until' mean you don't want values
-	// between 1 and 100, that is, while the opposite of these values return true
-	// continue typing, otherwise terminate the program
+	// ex10: neste exercicio, as palavras 'ate que' significam que vc nao quer valores
+	// entre 1 e 100, ou seja, enquanto o oposto desses valores retornar verdadeiro
+	// continue digitando, caso contrario encerre o programa
 	/*
 	int n;
 	do{
@@ -210,7 +210,7 @@ int main(){
 	printf("vc digitou: %d\n", n);
 	*/
 
-	// ex11: write the entire ascii table but stopping every 20 characters
+	// ex11: escreva toda a tabela ascii mas parando de 20 em 20 caracteres
 	/*
 	int i, cont;
 	char ch;
@@ -242,27 +242,27 @@ int main(){
 	}
 	*/
 
-	// EXAMPLE from ex14, Assignment order and increment in variable x that is isolated
+	// EXEMPLO do ex14, Ordem de atribuicao e incremento em variavel x que esta isolada
 	/*
 	int x = 0;
 
-	x++; // x becomes 1
+	x++; // x passa a valer 1
 	printf("x = %d\n", x);
 
 	x = 0;
-	++x; // x becomes 1
+	++x; // x passa a valer 1
 	printf("x = %d\n", x);
 
-	// the results are the same as x is isolated
+	// os resultados sao os mesmos pois x se encontra isolada
 	*/
 
 
-	//ex15: Can we use increments on constants?
-	// R: no because constants use #define, that is, values that should not be changed
+	//ex15: Podemos utilizar incrementos em constantes?
+	// R: nao pois constantes utilizam #define, ou seja, valores que nao devem ser alterados
 
 
-	//ex17: infinite cycle
-	// because the test of the variable n in the while will never be equal to zero
+	//ex17: loop infinito
+	// pois o teste da variavel n no while nunca sera igual a zero
 	/*
 	int n = 0;
 	do{
@@ -272,37 +272,36 @@ int main(){
 	*/
 
 	//ex18
-	// terminates the program without showing anything, as the condition returns false due to the fact that
-	// i is 0, that is FALSE, and in C any value other than 0 and h TRUE
+	// termina o programa sem mostrar nada, pois a condicao retorna falsa pelo fato de que
+	// i vale 0, ou seja FALSO, e em C qualquer valor diferente de 0 eh VERDADEIRO
 	/*
 	int i = 0;
-	while(i++) // here i is 0
+	while(i++) // aqui i esta valendo 0
 		printf("%d\n", i);
 	*/
 
-	// infinite loop, as 'i' is different from 0 in that it is always incremented
+	// loop infinito, pois i eh diferente de 0 pelo fato de que eh sempre incrementado
 	/*
 	int i = 0;
 	while(++i)
 		printf("%d\n", i);
 	*/
 
-	//ex19: what happens if we put ; lost in the middle of the program
+	//ex19: o que acontece se colocarmos ; perdido pelo programa
 	/*
 	int i;
 
-	// ; here run the for loop normally showing 200 numbers
-	for(i = 1; i <= 200; i++) ; // ; here it shows only the number 201, as it is as if it executed two hundred times the instruction is empty, that is, with nothing inside because the ; indicates an empty instruction and only after these two hundred empty lines is the printf executed with the value 201
+	// ; aqui executa o for normalmente mostrando 200 numeros
+	for(i = 1; i <= 200; i++) ; // ; aqui mostra apenas o numero 201, pois eh como se ele executasse duzentas vezes a instrucao for vazia, ou seja, com nada dentro pois o ; indica uma instrucao vazia e somente apos essas duzentas linhas vazias eh que eh executado o printf com o valor 201
 		printf("%d\n", i);
 
 	*/
 
-	//ex21: testing values
+	//ex21: testando valores
 	/*
 	int x = 6, y = -1, z = -1;
 
 	// aqui x nao eh igual a y, portanto o valor atribuido a z sera FALSO ou 0
-	// here x isn't equal to y, so the value assigned to z will be FALSE or 0
 	z = (x == y);
 
 	printf("z = %d\n", z);

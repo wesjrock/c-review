@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-	// Sum and Product of the N first natural numbers
+	// Soma e Produto dos N primeiros numeros naturais
 	/*
 	int n, num, soma, produto;
 
@@ -22,7 +22,7 @@ int main(){
 		for(j = 1; j <= 10; j++){
 			printf("%2d * %2d = %2d\n", i, j, i * j);
 
-			// stops with each line that is written
+			// vai parando a cada linha que eh escrita
 			if(i != 6){
 				printf("PRESSIONE ENTER PARA CONTINUAR\n");
 				getchar();
@@ -40,7 +40,7 @@ int main(){
 	*/
 
 	// prog0412
-	// print the first 29 even numbers
+	// imprime os primeiros 29 numeros pares
 
 	int i;
 	for(i = 1; i <= 100; i++){

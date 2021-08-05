@@ -4,11 +4,11 @@
 int main(){
 	float taxa;
 
-	// integer division that is incorrect, as it gives 0 result
+	// divisao inteira que esta incorreta, pois da resultado 0
 	taxa = 5/100;
 	printf("divisao incorreta = %f\n", taxa);
 
-	// float division, 5% rate
+	// divisao em float, taxa de 5%
 	printf("divisao correta = %f\n", .05/1.0);
 
 	return 0;

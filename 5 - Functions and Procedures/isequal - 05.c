@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// Check if two numbers are equal
+// Verifica se dois numeros sao iguais
 int isequal (int x, int y);
 
 int main(){
@@ -17,6 +17,6 @@ int main(){
 }
 
 int isequal (int x, int y){
-	// if x equals y, returns 1 for TRUE or 0 for FALSE
+	// se x for igual a y, retorna 1 para VERDADEIRO ou 0 para FALSO
 	return (x == y);
 }

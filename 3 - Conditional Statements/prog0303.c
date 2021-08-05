@@ -26,12 +26,12 @@ int main(){
 		printf("\nleite = %d cafe = %d\n", leite, cafe);
 	}
 
-	// You can't exchange a cup of milk with coffee with just two cups
+	// Nao da para trocar um copo de leite com cafe com apenas dois copos
 	/*
 	leite = cafe;
 	cafe = leite;
 
-	// With a third glass, this is possible
+	// Com um terceiro copo, isso eh possivel
 	copo_aux = cafe;
 	cafe = leite;
 	leite = copo_aux;

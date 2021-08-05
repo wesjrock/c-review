@@ -24,6 +24,6 @@ float power(float x, int n){
 	return res;
 }
 
-//  0 ^ 0 = 1 	// doesn't loop AND RETURNS res (INDEFINITION)
-//  1 ^ 0 = 1	// doesn't loop (THIS ISN'T AN INDEFINITION)
-// -1 ^ 0 = 1	// doesn't loop (INDEFINITION)
+//  0 ^ 0 = 1 	// nao entra no for e retorna res (INDEFINICAO)
+//  1 ^ 0 = 1	// nao entra no for (NAO EH INDEF)
+// -1 ^ 0 = 1	// nao entra no for (INDEFINICAO)

@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 int main(){
-	// Conditional or Ternary Operator
+	// Operador Condicional ou Ternario
 	float salario;
 
 	scanf("%f", &salario);
 
-	// if the condition is true it returns the first option, otherwise it returns the second
+	// se a condicao for verdadeira retorna a primeira opcao, senao retorna a segunda
 	salario = salario > 1000 ? salario * 1.05 : salario * 1.07;
 
 	printf("salario = %.2f\n", salario); 

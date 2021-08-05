@@ -9,12 +9,12 @@ int main(){
 	// scanf reads any input from the keyboard but needs parameters 
 
 	/*
-	// DOESNT'T WORK
+	// NAO FUNCIONA
 	scanf("%c", &a);
 	scanf("%c", &b);
 	*/
 
-	// IT WORKS BECAUSE BLANK SPACE ON SCANF IGNORS \ n \ t and ' '
+	// FUNCIONA POIS O ESPAÇO EM BRANCO NA SCANF IGNORA \n \t e ' '
 	scanf("%c", &a);
 	scanf(" %c", &b);
 

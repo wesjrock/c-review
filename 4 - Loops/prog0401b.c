@@ -1,28 +1,28 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/* In C: 0 is FALSE
-   != of 0 is TRUE */
+// Em C: 0 		 eh	FALSO
+//       != de 0 eh VERDADEIRO
 
 int main(){
-	// INCREMENT AND DECREMENT
+	// INCREMENTO E DECREMENTO
 	/*
 	int a, b;
 
-	// both variables start with value 3
+	// ambas variaveis comecam com valor 3
 	a = b = 3;
 
-	// a-- : assign first and decrement later
-	// --b : decrements first and assigns later
-	// output: 3 and 2
+	// a-- : atribui primeiro e decrementa depois
+	// --b : decrementa primeiro e atribui depois
+	// saida: 3 e 2
 	printf("a = %d , b = %d\n", a--, --b);
 
-	// both were decremented
-	// output: 2 and 2
+	// como ambas foram decrementadas
+	// saida: 2 e 2
 	printf("a = %d , b = %d\n", a, b);
 	*/
 
-	// Alternative prog0401 
+	// prog0401 alternativo
 	/*
 	int i;
 
@@ -36,8 +36,8 @@ int main(){
 	/*
 	int i = 0;
 
-	// Here the increment is performed, but as the condition returns false, it does not enter the 'if'
-	// Inside the 'if' the question is "i is equal to i++ ?" No, because i is 0 and i++ is 1
+	// Aqui o incremento eh executado, mas como a condicao retorna falso, ele nao entra no if
+	// no if a pergunta eh "i eh igual a i++ ?" nao, pois i eh 0 e i++ eh 1
 	// Saida: 1
 	if(i++){
 		printf("ENTREI AQUI\n");

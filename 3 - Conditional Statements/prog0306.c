@@ -9,7 +9,7 @@ int main(){
 
 	if(sal <= 0)
 		printf("INVALIDO\n");
-	// Only enter the second 'if' when the first is False
+	// So entra no segundo if se o primeiro for Falso
 	else if(sal >= 1000)
 		printf("Imposto = %.2f\n", sal * 0.10);
 	else

@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-	// CASTING INT e FLOAT
+	// CASTING INT e FLOAT666664
 	float a;
 
 	scanf("%f", &a);

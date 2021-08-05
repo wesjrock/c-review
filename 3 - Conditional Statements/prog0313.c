@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-	// Switch: executes everything until it finds break
+	// Switch: executa tudo ate encontrar break
 
 	char est_civil;
 	scanf("%c", &est_civil);
